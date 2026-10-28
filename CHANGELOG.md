@@ -1,5 +1,10 @@
 # Changelog
 
+## [2026-10-28]
+
+### Added
+- Dan Koe 「How to fix your entire life in 1 day」 원문 정리 `posts/2026-10-26-dankoe-fix-life/source.md` (#1, `5e26dbf`)
+
 ## [2026-10-26]
 
 ### Added
