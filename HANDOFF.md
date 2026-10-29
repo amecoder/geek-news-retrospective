@@ -1,13 +1,13 @@
 # HANDOFF.md
 
-## Current State: 첫 원문 정리 머지 (2026-10-28)
+## Current State: 첫 회고 머지 (2026-10-29)
 
 `origin` = https://github.com/amecoder/geek-news-retrospective (public).
-Dan Koe 글 원문 정리(`source.md`)가 PR #1 로 머지됐다. 회고(`ko.md`·`en.md`)는 아직 없다.
+Dan Koe 원문 정리(PR #1)와 Dan Luu 원문 정리·한국어 회고(PR #2)가 머지됐다. `en.md` 는 아직 하나도 없고, 게시 스크립트도 없다.
 
 ## Pending Tasks
 - [ ] Dan Koe 회고 `ko.md` — 사용자 답 대기: ① 프로토콜을 해 봤는지 ② "행동보다 정체성"과 "불편하면 빠르게 고친다"의 관계 ③ 비판하고 싶은 점·써먹을 점
-- [ ] Dan Luu 회고 (`post/danluu-ambitious`, 미커밋 · `posts/2026-10-26-danluu-ambitious/` 는 untracked) — `ko.md` 마지막 문단(추측) 확인, geeknews_url 미확인, 사례 보강 여부
+- [ ] Dan Luu 회고 후속 — `geeknews_url` 미확인(빈 값), `en.md` 미작성, 사례 보강 여부. 원격 브랜치 `post/danluu-ambitious` 는 머지 후 남아 있음(브랜치 삭제는 차단 목록이라 사용자가 정리)
 - [ ] stash `translation-policy` (전문 번역은 허락·라이선스 근거가 있을 때만) — 계속 가져갈지 결정
 - [ ] Hashnode PAT 발급 + publication ID 확인 → GitHub Secrets 등록
 - [ ] 결정 필요: Hashnode 에 ko/en 을 둘 다 올릴지, 한 블로그에 두 글로 올릴지, en 만 올릴지
@@ -18,6 +18,7 @@ Dan Koe 글 원문 정리(`source.md`)가 PR #1 로 머지됐다. 회고(`ko.md`
 - [x] 프로젝트 초기 설정 (CLAUDE.md · HANDOFF.md · CHANGELOG.md · .gitignore · 디렉터리)
 - [x] 공개 저장소 생성·푸시 — https://github.com/amecoder/geek-news-retrospective (`1abc0e0`)
 - [x] PR #1 — Dan Koe 「How to fix your entire life in 1 day」 원문 정리 (squash `5e26dbf`, 2026-10-28). WebFetch 대조 + Gemini 4 Argon 교차 검증 + 스크린샷 PDF 직접 대조. 도입부(I절 앞)는 PDF 에 없어 미확인
+- [x] PR #2 — Dan Luu 「We should be more ambitious with the software we build」 원문 정리 + 한국어 회고 (squash `f0bb933`, 2026-10-29). 추측으로 쓴 마지막 문단은 사용자 결정으로 삭제
 
 ## Key Decisions
 - Hashnode 게시: GitHub Actions 자동 게시 (사용자 결정 2026-10-26)

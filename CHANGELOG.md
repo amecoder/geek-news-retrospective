@@ -1,5 +1,10 @@
 # Changelog
 
+## [2026-10-29]
+
+### Added
+- Dan Luu 「We should be more ambitious with the software we build」 원문 정리·한국어 회고 `posts/2026-10-26-danluu-ambitious/` (#2, `f0bb933`)
+
 ## [2026-10-28]
 
 ### Added
